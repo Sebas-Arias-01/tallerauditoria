@@ -1,0 +1,56 @@
+{
+  "id": "/chat-superheroes/",
+  "name": "Chat de Superheroes Twittor",
+  "short_name": "HeroChat",
+  "description": "Aplicación progresiva para simular un chat entre superhéroes.",
+  "version": "1.0.0",
+  "author": "Tu Nombre",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "img/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/screenshots/mobile-view.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "img/screenshots/desktop-view.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nuevo Mensaje",
+      "short_name": "Mensaje",
+      "description": "Escribir un nuevo mensaje de chat",
+      "url": "index.html#nuevo-mensaje",
+      "icons": [{ "src": "img/icons/icon-152x152.png", "sizes": "152x152" }]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.ejemplo.herochat",
+      "id": "com.ejemplo.herochat"
+    }
+  ],
+  "prefer_related_applications": false
+}
